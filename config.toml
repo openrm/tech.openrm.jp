@@ -2,5 +2,44 @@ baseURL = "https://tech.openrm.jp"
 languageCode = "en-us"
 title = "Open Room Inc. Tech Blog"
 theme = "minimal-bootstrap-hugo-theme"
+
 [permalinks]
   posts = "/:section/:year/:month/:slug/"
+
+[params]
+  description = "Researches, stories from the developer team at Open Room."
+  contentBackgroundColor = "#fff"
+  contentTextColor = "#212529"
+  contentLinkColor = "#007bff"
+  contentLinkHoverColor = "#0056b3"
+  navbarBackgroundColor = "#212529"
+  navbarLinkColor = "rgba(255, 255, 255, 0.75)"
+  navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
+  wrapperMaxWidth = "800px"
+  customDateFormat = "Jan 2, 2006"
+  customCodeStyle = true
+  customBlockquoteStyle = true
+  showPostSummary = false
+  cookieConsent = false
+  includeBootstrapJs = false
+  faviconSafariPinnedTabColor = "#ffffff"
+  faviconMsApplicationTileColor = "#ffffff"
+  faviconThemeColor = "#ffffff"
+
+[menu]
+  [[menu.nav]]
+  name = "Posts"
+  url = "/"
+  weight = 1
+  [[menu.nav]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+  [[menu.nav]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+  [[menu.nav]]
+  name = "RSS"
+  url = "/posts/index.xml"
+  weight = 4
