@@ -1,3 +1,4 @@
 baseURL = "https://tech.openrm.jp"
 languageCode = "en-us"
 title = "Open Room Inc. Tech Blog"
+theme = "minimal-bootstrap-hugo-theme"
